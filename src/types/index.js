@@ -1,0 +1,3 @@
+export const COLOR_SELECCIONADO = 'COLOR_SELECCIONADO';
+export const MAIL_SEND = 'MAIL_SEND';
+

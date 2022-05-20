@@ -3,12 +3,12 @@ import { CSSTransition } from 'react-transition-group';
 
 const Header_component = () => {
 
-    const [showButton, setShowButton] = useState(true);
+const [showButton, setShowButton] = useState(true);
   const [showMessage, setShowMessage] = useState(false);
 
 
     return ( 
-        <header>
+        <header className="headerposition">
             <div className="navbarp">
                 <div className="logo">Fernando Monrreal</div>
                 {/* <div> */}

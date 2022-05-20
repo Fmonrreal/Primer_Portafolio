@@ -23,8 +23,8 @@ a:hover{
 html body header{
   /* display: flex;
   justify-content: space-between; */
-  background-color: #fff;
-  box-shadow: 3px 0 5px #aaa;
+  /* background-color: #fff;
+  box-shadow: 3px 0 5px #aaa; */
   padding: 15px 30px;
   position: relative;
   z-index: 2;
@@ -276,3 +276,104 @@ a.btn{
   transition: transform 300ms;
   /* transition: opacity 300ms; */
 }
+
+/* .MainImage{
+  width: 100vw;
+  height: 100vh;
+  background: url('/src/assets/codigo.png') no-repeat center center;
+  background-size: 100% 100%;
+} */
+
+.MainImage{
+    background-color: #8e8e8e;
+    background-image: url('/src/assets/codigo.png');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+}
+
+.MainSection{
+  min-height: 100vh;
+  display: flex;
+  padding: 30px;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.8);
+  position: relative;
+  text-align: center;
+}
+
+/* @media (max-width: 900px) { */
+  /* .MainImage{
+    width: 100vw;
+    height: 100vh;
+    background: url('/src/assets/prog1.jpg') no-repeat center center;
+    background-size: 100% 100%;
+  } */
+/* } */
+
+
+@media (max-width: 767px){
+.MainImage {
+    background-image: url('/src/assets/codigo.png');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}}
+
+
+.hero2{
+  position: relative;
+  z-index: 2;
+  display: flex;
+  padding: 20px 50px;
+  justify-content: center;
+  height: 100%;
+  align-items: center;
+  color: white;
+}
+
+.LettersMain{
+  font-size: 4vw;
+}
+
+@media (max-width: 767px){
+  .LettersMain{
+    font-size: 6vw;
+  }
+}
+
+.marginbtn{
+  margin-top: 5%;
+}
+
+.marginbtn2{
+  margin-top: 1%;
+  margin-bottom: 1%;
+  justify-content: center;
+}
+
+.headerposition{
+  position: fixed;
+  top: 0%;
+  right: 0%;
+  left: 0%;
+  z-index: 100;
+}
+
+.FirstSectionFeatures{
+  /* position: absolute;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  min-height: 100vh; */
+}
+
+/* .fijo{
+  position: absolute;
+  top: 0;
+} */

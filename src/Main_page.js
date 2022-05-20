@@ -5,7 +5,6 @@ import Footer from "./components/Footer";
 const Main_page = () => {
     return ( 
         <div>
-            <Header_component/>
             <Main_component/>
             <Footer/>
         </div>
