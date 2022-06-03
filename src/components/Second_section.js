@@ -15,10 +15,17 @@ const Second_section = () => {
                         <p>Una aplicacion que envia correos utilizando la Api de Sendgrid</p>
                         <a className="orange" href="#">Link aqui</a>
                     </div>
-                    <div className="card third"> 
-                        <h3>Mailer app</h3>
-                        <p>Una aplicacion que envia correos utilizando la Api de Sendgrid</p>
-                        <a className="orange" href="#">Link aqui</a>
+                    <div className="card third parent"> 
+                        <div className="blackcard child bg-one">
+                            {/* <h3>Mailer app</h3>
+                            <p>Una aplicacion que envia correos utilizando la Api de Sendgrid</p>
+                            <a className="orange" href="#">Link aqui</a> */}
+                        </div>
+                        <div className="parraf">
+                            <h3>Mailer app</h3>
+                            <p>Una aplicacion que envia correos utilizando la Api de Sendgrid</p>
+                            <a className="orange" href="#">Link aqui</a>
+                        </div>
                     </div>
                     <div className="card third"> 
                         <h3>Mailer app</h3>
