@@ -22,15 +22,15 @@ const Form_section = () => {
             nombre,email,mensaje
         };
 
-        // console.log('process.env.SERVICE_ID',process.env.SERVICE_ID)
-        // emailjs.send('service_070hzle','template_d1ay10b', templateParams, 'IxIap6LMDbB20hkzk')
+        console.log('process.env.SERVICE_ID',process.env.SERVICE_ID)
+        emailjs.send('service_070hzle','template_d1ay10b', templateParams, 'IxIap6LMDbB20hkzk')
         // emailjs.send(process.env.SERVICE_ID,process.env.TEMPLATE_ID, templateParams, process.env.USER_ID)
         // emailjs.send(`${process.env.SERVICE_ID}`,`${process.env.TEMPLATE_ID}`, templateParams, `${process.env.USER_ID}`)
-        // .then((response) => {
-        // console.log('SUCCESS!', response.status, response.text);
-        // }, (err) => {
-        // console.log('FAILED...', err);
-        // });
+        .then((response) => {
+        console.log('SUCCESS!', response.status, response.text);
+        }, (err) => {
+        console.log('FAILED...', err);
+        });
         sendEmailAction()
 
         // this.props.history.push('sent_email')

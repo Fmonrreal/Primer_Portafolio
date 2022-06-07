@@ -61,9 +61,10 @@ html body nav ul li a{
 }
 
 .hero .hero-content{
-  width: 1200px;
+  width: 50%;
   display: flex;
   flex-direction: row;
+  text-align: center;
 }
 
 .hero h1{
@@ -80,7 +81,8 @@ html body nav ul li a{
 }
 
 .left{
-  width: 600px;
+  width: 100%;
+  text-align: center;
 }
 
 .btn{
@@ -130,8 +132,8 @@ a.btn{
 }
 
 .third{
-  width: 360px;
-  margin: 20px;
+  width: 32%;
+  margin: 1%;
 }
 
 .contact-form input{
@@ -168,12 +170,15 @@ a.btn{
 .social-links{
   margin-top:  20px;
   margin-bottom: 40px;
+  /* margin-left: 1%; */
 }
 
 .social{
   background-color: #fff;
   padding: 10px;
   border-radius: 15px;
+  margin-left: 5%;
+  margin-right: 5%;
 } 
 
 .made-with{
@@ -195,7 +200,15 @@ a.btn{
     flex-direction: row;
   }
   .left{
-    width: 90%;
+    width: 100%;
+  }
+
+  .third{
+    width: 100%;
+  }
+
+  .stayflex{
+    display:flex;
   }
 }
 
@@ -223,6 +236,18 @@ a.btn{
   
   .second{
     display:block
+  }
+  .hero{
+    display: block;
+  }
+  .hero .hero-content{
+    width: 100%;
+  }
+  .right{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
 
@@ -452,12 +477,34 @@ cursor: pointer;
   align-items: center;
   text-align: center;
   z-index: 1; */
-  position: relative;
+  position: absolute;
   z-index: 2;
-  display: flex;
+  /* display: flex; */
   /* padding: 20px 50px; */
+  width: 100%;
   justify-content: center;
   height: 100%;
   align-items: center;
+  text-align: center;
+  top:0;
+  opacity: 0;
   /* color: white; */
+}
+
+.sepButton{
+  display: flex;
+  justify-content: space-around;
+  
+}
+
+.parent:hover .parraf {
+  opacity: 1;
+}
+
+.margSep{
+  margin-right: 5%;
+}
+
+.rigth{
+  width:50%;
 }

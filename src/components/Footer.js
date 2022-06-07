@@ -1,4 +1,5 @@
 import linkedin from '../assets/linkedin.png'
+import github2 from '../assets/github2.png'
 
 const Footer = () => {
     return ( 
@@ -14,8 +15,9 @@ const Footer = () => {
                 </div>
             </div>
             <div className="center full-width social-links">
-                <div className="row">
-                    <a href="#"><img className="social" src={linkedin} width="30"></img></a>
+                <div className="row stayflex">
+                    <a href="https://www.linkedin.com/in/luis-fernando-monrreal-arellano-6340731b0/" className='margSep'><img className="social" src={linkedin} width="30"></img></a>
+                    <a href="https://github.com/Fmonrreal?tab=repositories" className='margSep'><img className="social" src={github2} width="30"></img></a>
                 </div>
             </div>
             <div>
